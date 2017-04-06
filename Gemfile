@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'carrierwave', '~> 1.0'
+gem "fog"
 gem "fog-aws"
 gem "figaro"
 
