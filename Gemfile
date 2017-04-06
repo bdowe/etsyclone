@@ -13,6 +13,7 @@ gem 'carrierwave', '~> 1.0'
 gem "fog"
 gem "fog-aws"
 gem "figaro"
+gem "mini_magick"
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
