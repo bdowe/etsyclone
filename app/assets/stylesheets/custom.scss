@@ -44,3 +44,10 @@ body {
     font-size: 18px;
   }
 }
+
+.jumbotron {
+  background-image: url('jumbotron.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  h1, h2 {font-family: guardian-egyptt, georgia, serif;}
+}
