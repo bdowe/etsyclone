@@ -15,6 +15,7 @@ gem "fog-aws"
 gem "figaro"
 gem "mini_magick"
 gem 'devise'
+gem 'stripe'
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
