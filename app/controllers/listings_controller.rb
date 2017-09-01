@@ -42,11 +42,11 @@ class ListingsController < ApplicationController
         :managed => false, 
         :country => 'US', 
         :email => current_user.email, 
-        :id => current_user.id
         ) 
     end
 
-      current_user.recipient = recipient.id
+      # need to figure out why line below doesn't work.
+      #current_user.recipient = recipient.id
       current_user.save
       #End Recipient Code
 
