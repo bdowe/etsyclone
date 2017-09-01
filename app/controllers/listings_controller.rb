@@ -41,7 +41,8 @@ class ListingsController < ApplicationController
       recipient = Stripe::Account.create( 
         :managed => false, 
         :country => 'US', 
-        :email => current_user.email 
+        :email => current_user.email, 
+        :id => current_user.id
         ) 
     end
 
